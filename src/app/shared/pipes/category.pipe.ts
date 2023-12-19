@@ -9,6 +9,8 @@ export class CategoryPipe implements PipeTransform {
     switch(value){
       case 'front-end': return 'code';
       case 'back-end': return 'computer';
+      case 'both': return 'reorder';
+      case 'null': return 'not_interested';
     }
     return 'code';
   }
