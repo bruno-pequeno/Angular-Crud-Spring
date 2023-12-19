@@ -38,4 +38,8 @@ export class CoursesComponent implements OnInit{
   onAdd() {
     this.router.navigate(['new'], { relativeTo: this.route });
   }
+
+  onDelete(){
+    console.log("Deletando...")
+  }
 }
