@@ -1,3 +1,14 @@
+mat-card {
+  max-width: 85%;
+  margin: 2rem auto;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
 .loading-spinner {
   display: flex;
   align-items: center;
@@ -6,8 +17,4 @@
   padding: 60px;
 
   background: rgba(0, 0, 0, 0.10);
-}
-
-.icon-add {
-  margin-top: 2px;
 }
