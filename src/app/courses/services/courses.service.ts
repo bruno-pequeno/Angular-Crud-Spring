@@ -19,7 +19,7 @@ export class CoursesService {
     );
   }
 
-  save(data: Course) {
+  save(data: Partial<Course>) {
     return this.httpClient.post<Course>(this.API, data).pipe(first());
   }
 
